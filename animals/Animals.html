@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animals game project</title>
+  </head>
+  <style>
+
+
+  
+    #button {
+      position: absolute;
+      top: 20px;
+      left: 800px;
+      padding:30px;
+      width: 270px;
+      
+    
+    }
+
+   
+    #button:hover{
+      background-color: blueviolet;
+      cursor: pointer;
+
+    }
+
+
+    .container {
+    
+      height: 1000px;
+      background-image: url("imges/animals.jpg");
+      
+
+     
+    }
+    .one{
+        top: 100px;
+        width: 100px;
+        left: 50px;
+        height: 200px;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .two{
+      position: absolute;
+      bottom: 100px;
+        width: 100px;
+        height: 200px;
+        background-repeat: no-repeat;
+        display:none;
+    }
+    .three{
+      position:absolute;
+      bottom: 300px;
+        width: 100px;
+        height: 200px;
+        background-repeat: no-repeat;
+        display:none;
+    }
+    .four{
+      position: absolute;
+      bottom: 450px;
+        width: 100px;
+        height: 200px;
+        background-repeat: no-repeat;
+        display:none;
+    }
+
+    .voice{
+     font-size: larger;
+     color: blueviolet;
+     position: absolute;
+     top: 300px;
+     left: 800px;
+     
+    }
+  </style>
+  <body>
+   
+    <div class="container">
+
+      <button id="button">Start the Game!</button>
+     
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        </div>
+    </div>
+   
+    <script src="animals.js"></script>
+  </body>
+</html>
